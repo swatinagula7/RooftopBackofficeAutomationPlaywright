@@ -1,0 +1,101 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "Employee Portal Employee Portal" [ref=e7] [cursor=pointer]:
+        - /url: ""
+        - img "Employee Portal" [ref=e9]
+        - generic [ref=e10]: Employee Portal
+      - text: 
+    - navigation [ref=e12]:
+      - generic [ref=e13]:
+        - button "Dashboard " [ref=e14] [cursor=pointer]:
+          - generic [ref=e16]: 
+          - text: Dashboard
+          - generic [ref=e18]: 
+        - link "Production Snapshot" [ref=e20] [cursor=pointer]:
+          - /url: /productionreport
+          - generic [ref=e22]: 
+          - text: Production Snapshot
+        - link "Sales Statistics" [ref=e24] [cursor=pointer]:
+          - /url: /sale-statistics
+          - generic [ref=e26]: 
+          - text: Sales Statistics
+      - link "Order Reports" [ref=e28] [cursor=pointer]:
+        - /url: /orderingreport
+        - generic [ref=e30]: 
+        - text: Order Reports
+      - button "Orders " [ref=e32] [cursor=pointer]:
+        - generic [ref=e34]: 
+        - text: Orders
+        - generic [ref=e36]: 
+      - button "Credits " [ref=e38] [cursor=pointer]:
+        - generic [ref=e40]: 
+        - text: Credits
+        - generic [ref=e42]: 
+      - link "Customers" [ref=e44] [cursor=pointer]:
+        - /url: /odatacustomersearch
+        - generic [ref=e46]: 
+        - text: Customers
+      - generic [ref=e47]:
+        - button "Settings " [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: 
+          - text: Settings
+          - generic [ref=e52]: 
+        - link "Employees" [ref=e54] [cursor=pointer]:
+          - /url: /all-employees
+          - generic [ref=e56]: 
+          - text: Employees
+        - link "Promo Codes" [ref=e58] [cursor=pointer]:
+          - /url: /all-promocodes
+          - generic [ref=e60]: 
+          - text: Promo Codes
+        - link "Products" [ref=e62] [cursor=pointer]:
+          - /url: /all-products
+          - generic [ref=e64]: 
+          - text: Products
+        - link "Email Templates" [ref=e66] [cursor=pointer]:
+          - /url: /all-emailtemplates
+          - generic [ref=e68]: 
+          - text: Email Templates
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "" [ref=e71] [cursor=pointer]
+      - generic [ref=e72]:
+        - link "Admin (Admin)" [ref=e74] [cursor=pointer]:
+          - /url: updateemployee/67
+        - generic [ref=e75]: "Last login: 11/05/2025 10:43:20"
+        - generic [ref=e77] [cursor=pointer]: 
+    - article [ref=e78]:
+      - generic [ref=e81]:
+        - heading "Update Employee" [active] [level=1] [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]: Name*
+          - textbox "Name*" [ref=e88]: test
+        - generic [ref=e89]:
+          - generic [ref=e90]: Email*
+          - textbox "Email*" [ref=e92]: aun@yopmail.com
+        - generic [ref=e93]:
+          - generic [ref=e94]: Phone
+          - textbox "Phone" [ref=e96]: 345-678-5678
+        - generic [ref=e97]:
+          - generic [ref=e98]: Password
+          - textbox "Password" [ref=e100]:
+            - /placeholder: Empty to keep current
+        - generic [ref=e101]:
+          - generic [ref=e102]: Repeat Password
+          - textbox [ref=e104]
+        - generic [ref=e105]:
+          - generic [ref=e106]: Role*
+          - combobox [ref=e108]:
+            - option "--Select--"
+            - option "Technician" [selected]
+            - option "Manager"
+            - option "Admin"
+        - generic [ref=e110]:
+          - button "Save" [ref=e111] [cursor=pointer]
+          - button "Activate" [ref=e112] [cursor=pointer]
+          - button "Delete" [ref=e113] [cursor=pointer]
+```

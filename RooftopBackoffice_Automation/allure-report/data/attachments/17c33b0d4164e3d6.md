@@ -1,0 +1,277 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "Employee Portal Employee Portal" [ref=e7] [cursor=pointer]:
+        - /url: ""
+        - img "Employee Portal" [ref=e9]
+        - generic [ref=e10]: Employee Portal
+      - text: 
+    - navigation [ref=e12]:
+      - generic [ref=e13]:
+        - button "Dashboard " [ref=e14] [cursor=pointer]:
+          - generic [ref=e16]: 
+          - text: Dashboard
+          - generic [ref=e18]: 
+        - link "Production Snapshot" [ref=e20] [cursor=pointer]:
+          - /url: /productionreport
+          - generic [ref=e22]: 
+          - text: Production Snapshot
+        - link "Sales Statistics" [ref=e24] [cursor=pointer]:
+          - /url: /sale-statistics
+          - generic [ref=e26]: 
+          - text: Sales Statistics
+      - link "Order Reports" [ref=e28] [cursor=pointer]:
+        - /url: /orderingreport
+        - generic [ref=e30]: 
+        - text: Order Reports
+      - generic [ref=e31]:
+        - button "Orders " [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: 
+          - text: Orders
+          - generic [ref=e36]: 
+        - link "All Orders" [ref=e38] [cursor=pointer]:
+          - /url: /all-orders
+          - generic [ref=e40]: 
+          - text: All Orders
+        - link "Orders Received" [ref=e42] [cursor=pointer]:
+          - /url: all-orders/OrderReceived
+          - generic [ref=e44]: 
+          - text: Orders Received
+        - link "Pending Need Info" [ref=e46] [cursor=pointer]:
+          - /url: all-orders/PendingNeedInfo
+          - generic [ref=e48]: 
+          - text: Pending Need Info
+        - link "In Queue" [ref=e50] [cursor=pointer]:
+          - /url: all-orders/InQueue
+          - generic [ref=e52]: 
+          - text: In Queue
+        - link "Assigned" [ref=e54] [cursor=pointer]:
+          - /url: all-orders/Assigned
+          - generic [ref=e56]: 
+          - text: Assigned
+        - link "In Production" [ref=e58] [cursor=pointer]:
+          - /url: all-orders/InProduction
+          - generic [ref=e60]: 
+          - text: In Production
+        - link "Quality Control" [ref=e62] [cursor=pointer]:
+          - /url: all-orders/QualityControl
+          - generic [ref=e64]: 
+          - text: Quality Control
+        - link "Delivered" [ref=e66] [cursor=pointer]:
+          - /url: all-orders/Delivered
+          - generic [ref=e68]: 
+          - text: Delivered
+        - link "Refunded" [ref=e70] [cursor=pointer]:
+          - /url: all-orders/Refunded
+          - generic [ref=e72]: 
+          - text: Refunded
+      - button "Credits " [ref=e74] [cursor=pointer]:
+        - generic [ref=e76]: 
+        - text: Credits
+        - generic [ref=e78]: 
+      - link "Customers" [ref=e80] [cursor=pointer]:
+        - /url: /odatacustomersearch
+        - generic [ref=e82]: 
+        - text: Customers
+      - button "Settings " [ref=e84] [cursor=pointer]:
+        - generic [ref=e86]: 
+        - text: Settings
+        - generic [ref=e88]: 
+  - main [ref=e89]:
+    - generic [ref=e90]:
+      - button "" [ref=e91] [cursor=pointer]
+      - generic [ref=e92]:
+        - link "Admin (Admin)" [ref=e94] [cursor=pointer]:
+          - /url: updateemployee/67
+        - generic [ref=e95]: "Last login: 11/06/2025 06:16:59"
+        - generic [ref=e97] [cursor=pointer]: 
+    - article [ref=e98]:
+      - generic [ref=e99]:
+        - heading "Order Details" [level=3] [ref=e100]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e105]:
+              - heading "Order Details" [level=5] [ref=e106]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e111]: ID
+                  - generic [ref=e112]: "149226"
+                - strong [ref=e115]: Claim No.
+                - generic [ref=e117]:
+                  - strong [ref=e119]: Address
+                  - generic [ref=e120]: 5500 Campanile Drive San Diego California 92182
+                - generic [ref=e121]:
+                  - strong [ref=e123]: Lat/Lon
+                  - generic [ref=e124]: 32.7741862,-117.0712437
+                - generic [ref=e125]:
+                  - strong [ref=e127]: Report Type
+                  - generic [ref=e128]: Comprehensive
+                - generic [ref=e129]:
+                  - strong [ref=e131]: Payment Type
+                  - generic [ref=e132]: CreditCard
+                - generic [ref=e133]:
+                  - strong [ref=e135]: Report Price
+                  - generic [ref=e136]: $45
+                - generic [ref=e137]:
+                  - strong [ref=e139]: Quantity
+                  - generic [ref=e140]: "1"
+                - generic [ref=e141]:
+                  - strong [ref=e143]: Package Credits Used
+                  - generic [ref=e144]: "0"
+                - generic [ref=e145]:
+                  - strong [ref=e147]: Delivery Type
+                  - generic [ref=e148]: Normal
+                - generic [ref=e149]:
+                  - strong [ref=e151]: Delivery Price
+                  - generic [ref=e152]: "0"
+                - generic [ref=e153]:
+                  - strong [ref=e155]: Refund Amount
+                  - generic [ref=e156]: $45
+                - generic [ref=e157]:
+                  - strong [ref=e159]: Discount
+                  - generic [ref=e160]: $0.00
+                - strong [ref=e163]: Promotion Code
+                - generic [ref=e165]:
+                  - strong [ref=e167]: Total Charged
+                  - generic [ref=e168]: $45
+                - generic [ref=e169]:
+                  - strong [ref=e171]: Upgrade Charges
+                  - generic [ref=e172]: $0
+                - generic [ref=e173]:
+                  - strong [ref=e175]: Status
+                  - generic [ref=e176]: Refunded
+                - generic [ref=e177]:
+                  - strong [ref=e179]: Order Time
+                  - generic [ref=e180]: 10/15/2025 12:22 PM
+                - strong [ref=e183]: Report Instructions
+                - strong [ref=e187]: CC Emails
+                - strong [ref=e191]: Manager Notes
+                - strong [ref=e195]: Additional Production Notes
+              - generic [ref=e198]:
+                - button "Update Order" [ref=e199] [cursor=pointer]:
+                  - generic [ref=e201]: Update Order
+                - button "Resend Receipt" [disabled] [ref=e202]:
+                  - generic [ref=e204]: Resend Receipt
+                - button "Refund" [disabled] [ref=e205]:
+                  - generic [ref=e207]: Refund
+            - generic [ref=e210]:
+              - heading "Customer Info" [level=5] [ref=e211]
+              - generic [ref=e213]:
+                - generic [ref=e214]:
+                  - strong [ref=e216]: Name
+                  - generic [ref=e217]: swati N
+                - generic [ref=e218]:
+                  - strong [ref=e220]: Company Name
+                  - generic [ref=e221]: Test_baadalsoft@
+                - generic [ref=e222]:
+                  - strong [ref=e224]: Email
+                  - generic [ref=e225]: swatinagula7@gmail.com
+                - generic [ref=e226]:
+                  - strong [ref=e228]: Phone
+                  - generic [ref=e229]: 897-595-8584
+                - strong [ref=e232]: Account Notes
+                - generic [ref=e234]:
+                  - strong [ref=e236]: Emails List
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: wivisoxeite-2215@yopmail.com ,
+                    - generic [ref=e239]: swatinagula7@gmail.com ,
+                - generic [ref=e240]:
+                  - strong [ref=e242]: Available Bsc
+                  - generic [ref=e243]: "117"
+                - generic [ref=e244]:
+                  - strong [ref=e246]: Available STD
+                  - generic [ref=e247]: "1397"
+                - generic [ref=e248]:
+                  - strong [ref=e250]: Available COMP
+                  - generic [ref=e251]: "93"
+                - generic [ref=e252]:
+                  - strong [ref=e254]: Available CLMS
+                  - generic [ref=e255]: "209"
+          - generic [ref=e256]:
+            - generic [ref=e259]:
+              - heading "Production" [level=5] [ref=e260]
+              - generic [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]:
+                      - combobox [disabled] [ref=e266]:
+                        - option "Select Technician" [selected]
+                        - option "Jared Dodson"
+                        - option "Dan Tholmer"
+                        - option "Blaine Bradshaw"
+                        - option "Daniel Guichard"
+                        - option "Hold ing"
+                        - option "Paolo Pittini"
+                        - option "David Guichard"
+                        - option "johny"
+                        - option "Admin1"
+                        - option "ted"
+                        - option "manager"
+                        - option "Dev Chin"
+                        - option "dev sunny"
+                        - option "Mark"
+                        - option "Dev Guru"
+                        - option "Mohd Imran"
+                        - option "manager"
+                        - option "manager1"
+                        - option "manage"
+                        - option "manager3"
+                        - option "technician"
+                        - option "Sunny D"
+                        - option "kkgdf"
+                        - option "tech"
+                        - option "ani"
+                        - option "yauddidovi"
+                        - option "rockyy"
+                        - option "DevzqjvzmU"
+                      - button "Assign" [disabled] [ref=e268]:
+                        - generic [ref=e269]: Assign
+                      - button "UnAssign" [disabled] [ref=e271]:
+                        - generic [ref=e272]: UnAssign
+                    - separator [ref=e273]
+                    - generic [ref=e274]:
+                      - strong [ref=e276]: Vendor Image
+                      - generic [ref=e278]:
+                        - textbox [ref=e279]
+                        - button "expand_less" [ref=e280] [cursor=pointer]:
+                          - generic [ref=e281]: expand_less
+                        - button "expand_more" [ref=e282] [cursor=pointer]:
+                          - generic [ref=e283]: expand_more
+                      - button "Save" [disabled] [ref=e285]:
+                        - generic [ref=e286]: Save
+                    - separator [ref=e287]
+                    - generic [ref=e288]:
+                      - strong [ref=e290]: Select Status
+                      - combobox [ref=e292]:
+                        - option "Order Received"
+                        - option "Pending Need Info"
+                        - option "In Queue"
+                        - option "Assigned"
+                        - option "In Production"
+                        - option "Quality Control"
+                        - option "Delivered"
+                        - option "Refunded" [selected]
+                      - button "Save" [disabled] [ref=e294]:
+                        - generic [ref=e295]: Save
+                  - separator [ref=e296]
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - button "Choose File" [ref=e300] [cursor=pointer]
+                      - list
+                    - button "Upload Files" [disabled] [ref=e302]
+                  - paragraph [ref=e303]: No files to show
+            - generic [ref=e306]:
+              - heading "Delivery" [level=5] [ref=e307]
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - strong [ref=e312]: Delivery Emails
+                  - textbox "Additional CC field" [ref=e318]
+                - generic [ref=e319]:
+                  - textbox "Enter Delivery Notes" [ref=e321]
+                  - button "Deliver" [ref=e323] [cursor=pointer]:
+                    - generic [ref=e325]: Deliver
+```

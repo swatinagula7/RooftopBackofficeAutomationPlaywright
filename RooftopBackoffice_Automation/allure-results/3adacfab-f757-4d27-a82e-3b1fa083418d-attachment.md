@@ -1,0 +1,229 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "Employee Portal Employee Portal" [ref=e7] [cursor=pointer]:
+        - /url: ""
+        - img "Employee Portal" [ref=e9]
+        - generic [ref=e10]: Employee Portal
+      - text: 
+    - navigation [ref=e12]:
+      - button "Dashboard " [ref=e14] [cursor=pointer]:
+        - generic [ref=e16]: 
+        - text: Dashboard
+        - generic [ref=e18]: 
+      - link "Order Reports" [ref=e20] [cursor=pointer]:
+        - /url: /orderingreport
+        - generic [ref=e22]: 
+        - text: Order Reports
+      - generic [ref=e23]:
+        - button "Orders " [ref=e24] [cursor=pointer]:
+          - generic [ref=e26]: 
+          - text: Orders
+          - generic [ref=e28]: 
+        - link "All Orders" [ref=e30] [cursor=pointer]:
+          - /url: /all-orders
+          - generic [ref=e32]: 
+          - text: All Orders
+        - link "Orders Received" [ref=e34] [cursor=pointer]:
+          - /url: all-orders/OrderReceived
+          - generic [ref=e36]: 
+          - text: Orders Received
+        - link "Pending Need Info" [ref=e38] [cursor=pointer]:
+          - /url: all-orders/PendingNeedInfo
+          - generic [ref=e40]: 
+          - text: Pending Need Info
+        - link "In Queue" [ref=e42] [cursor=pointer]:
+          - /url: all-orders/InQueue
+          - generic [ref=e44]: 
+          - text: In Queue
+        - link "Assigned" [ref=e46] [cursor=pointer]:
+          - /url: all-orders/Assigned
+          - generic [ref=e48]: 
+          - text: Assigned
+        - link "In Production" [ref=e50] [cursor=pointer]:
+          - /url: all-orders/InProduction
+          - generic [ref=e52]: 
+          - text: In Production
+        - link "Quality Control" [ref=e54] [cursor=pointer]:
+          - /url: all-orders/QualityControl
+          - generic [ref=e56]: 
+          - text: Quality Control
+        - link "Delivered" [ref=e58] [cursor=pointer]:
+          - /url: all-orders/Delivered
+          - generic [ref=e60]: 
+          - text: Delivered
+        - link "Refunded" [ref=e62] [cursor=pointer]:
+          - /url: all-orders/Refunded
+          - generic [ref=e64]: 
+          - text: Refunded
+      - button "Credits " [ref=e66] [cursor=pointer]:
+        - generic [ref=e68]: 
+        - text: Credits
+        - generic [ref=e70]: 
+      - link "Customers" [ref=e72] [cursor=pointer]:
+        - /url: /odatacustomersearch
+        - generic [ref=e74]: 
+        - text: Customers
+      - button "Settings " [ref=e76] [cursor=pointer]:
+        - generic [ref=e78]: 
+        - text: Settings
+        - generic [ref=e80]: 
+  - main [ref=e81]:
+    - generic [ref=e82]:
+      - button "" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - link "Admin (Admin)" [ref=e86] [cursor=pointer]:
+          - /url: updateemployee/67
+        - generic [ref=e87]: "Last login: 11/05/2025 10:45:05"
+        - generic [ref=e89] [cursor=pointer]: 
+    - article [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "Orders" [level=3] [ref=e93]
+          - generic [ref=e94]: Displaying 1-0 of 0 results
+        - generic [ref=e96]:
+          - button "grid_on Export" [ref=e100] [cursor=pointer]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: grid_on
+              - generic [ref=e103]: Export
+          - table [ref=e105]:
+            - rowgroup [ref=e122]:
+              - row "ID sort Company Name sort Full Name sort Street sort City sort State sort Zip sort Report Type sort Total Charged sort Quantity sort Delivery sort Status sort EMP sort Order Date sort Action sort" [ref=e123]:
+                - columnheader "ID sort" [ref=e124] [cursor=pointer]:
+                  - generic "ID" [ref=e126]:
+                    - generic [ref=e127]: ID
+                    - generic [ref=e128]: sort
+                - columnheader "Company Name sort" [ref=e130] [cursor=pointer]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - text: Company
+                      - text: Name
+                    - generic [ref=e134]: sort
+                - columnheader "Full Name sort" [ref=e136] [cursor=pointer]:
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - text: Full
+                      - text: Name
+                    - generic [ref=e140]: sort
+                - columnheader "Street sort" [ref=e142] [cursor=pointer]:
+                  - generic "Street" [ref=e144]:
+                    - generic [ref=e145]: Street
+                    - generic [ref=e146]: sort
+                - columnheader "City sort" [ref=e148] [cursor=pointer]:
+                  - generic "City" [ref=e150]:
+                    - generic [ref=e151]: City
+                    - generic [ref=e152]: sort
+                - columnheader "State sort" [ref=e154] [cursor=pointer]:
+                  - generic "State" [ref=e156]:
+                    - generic [ref=e157]: State
+                    - generic [ref=e158]: sort
+                - columnheader "Zip sort" [ref=e160] [cursor=pointer]:
+                  - generic "Zip" [ref=e162]:
+                    - generic [ref=e163]: Zip
+                    - generic [ref=e164]: sort
+                - columnheader "Report Type sort" [ref=e166] [cursor=pointer]:
+                  - generic "Report Type" [ref=e168]:
+                    - generic [ref=e169]: Report Type
+                    - generic [ref=e170]: sort
+                - columnheader "Total Charged sort" [ref=e172] [cursor=pointer]:
+                  - generic [ref=e174]:
+                    - generic [ref=e175]:
+                      - text: Total
+                      - text: Charged
+                    - generic [ref=e176]: sort
+                - columnheader "Quantity sort" [ref=e178] [cursor=pointer]:
+                  - generic "Quantity" [ref=e180]:
+                    - generic [ref=e181]: Quantity
+                    - generic [ref=e182]: sort
+                - columnheader "Delivery sort" [ref=e184] [cursor=pointer]:
+                  - generic "Delivery" [ref=e186]:
+                    - generic [ref=e187]: Delivery
+                    - generic [ref=e188]: sort
+                - columnheader "Status sort" [ref=e190] [cursor=pointer]:
+                  - generic "Status" [ref=e192]:
+                    - generic [ref=e193]: Status
+                    - generic [ref=e194]: sort
+                - columnheader "EMP sort" [ref=e196] [cursor=pointer]:
+                  - generic "EMP" [ref=e198]:
+                    - generic [ref=e199]: EMP
+                    - generic [ref=e200]: sort
+                - columnheader "Order Date sort" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]:
+                      - text: Order
+                      - text: Date
+                    - generic [ref=e206]: sort
+                - columnheader "Action sort" [ref=e208] [cursor=pointer]:
+                  - generic "Action" [ref=e210]:
+                    - generic [ref=e211]: Action
+                    - generic [ref=e212]: sort
+              - row "expand_less expand_more swati N close Grand Bay close arrow_drop_down expand_less expand_more expand_less expand_more arrow_drop_down arrow_drop_down" [ref=e214]:
+                - columnheader "expand_less expand_more" [ref=e215]:
+                  - generic [ref=e219]:
+                    - textbox "expand_less expand_more" [ref=e220]
+                    - button "expand_less" [ref=e221] [cursor=pointer]:
+                      - generic [ref=e222]: expand_less
+                    - button "expand_more" [ref=e223] [cursor=pointer]:
+                      - generic [ref=e224]: expand_more
+                - columnheader "swati N close" [ref=e225]:
+                  - generic [ref=e228]:
+                    - textbox "close" [ref=e229]: swati N
+                    - generic [ref=e230]: close
+                - columnheader [ref=e231]:
+                  - textbox [ref=e235]
+                - columnheader [ref=e236]:
+                  - textbox [ref=e240]
+                - columnheader "Grand Bay close" [ref=e241]:
+                  - generic [ref=e244]:
+                    - textbox "close" [active] [ref=e245]: Grand Bay
+                    - generic [ref=e246]: close
+                - columnheader [ref=e247]:
+                  - textbox [ref=e251]
+                - columnheader [ref=e252]:
+                  - textbox [ref=e256]
+                - columnheader "arrow_drop_down" [ref=e257]:
+                  - generic [ref=e260]:
+                    - generic:
+                      - textbox
+                    - generic [ref=e263]: arrow_drop_down
+                - columnheader "expand_less expand_more" [ref=e264]:
+                  - generic [ref=e268]:
+                    - textbox "expand_less expand_more" [ref=e269]
+                    - button "expand_less" [ref=e270] [cursor=pointer]:
+                      - generic [ref=e271]: expand_less
+                    - button "expand_more" [ref=e272] [cursor=pointer]:
+                      - generic [ref=e273]: expand_more
+                - columnheader "expand_less expand_more" [ref=e274]:
+                  - generic [ref=e278]:
+                    - textbox "expand_less expand_more" [ref=e279]
+                    - button "expand_less" [ref=e280] [cursor=pointer]:
+                      - generic [ref=e281]: expand_less
+                    - button "expand_more" [ref=e282] [cursor=pointer]:
+                      - generic [ref=e283]: expand_more
+                - columnheader "arrow_drop_down" [ref=e284]:
+                  - generic [ref=e287]:
+                    - generic:
+                      - textbox
+                    - generic [ref=e290]: arrow_drop_down
+                - columnheader "arrow_drop_down" [ref=e291]:
+                  - generic [ref=e294]:
+                    - generic:
+                      - textbox
+                    - generic [ref=e297]: arrow_drop_down
+                - columnheader [ref=e298]:
+                  - textbox [ref=e302]
+                - columnheader [ref=e303]:
+                  - generic [ref=e306]:
+                    - generic [ref=e307]:
+                      - textbox [ref=e308]
+                      - button [ref=e309] [cursor=pointer]:
+                        - generic [ref=e310]: calendar_today
+                    - text: chevron_left chevron_right arrow_drop_down arrow_drop_down
+                - columnheader [ref=e311]
+            - rowgroup [ref=e312]:
+              - row "No records to display." [ref=e313]:
+                - cell "No records to display." [ref=e314]
+```

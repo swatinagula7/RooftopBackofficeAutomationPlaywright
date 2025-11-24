@@ -1,0 +1,954 @@
+<testsuites id="" name="" tests="60" failures="16" skipped="0" errors="0" time="785.618685">
+<testsuite name="Credits\ExportCredits.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="35.133" errors="0">
+<testcase name="Export credits - Admin Backoffice" classname="Credits\ExportCredits.spec.js" time="35.133">
+</testcase>
+</testsuite>
+<testsuite name="Credits\orderCreditsWithCreditcard.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="38.169" errors="0">
+<testcase name="Order Credits with Credit Card" classname="Credits\orderCreditsWithCreditcard.spec.js" time="38.169">
+</testcase>
+</testsuite>
+<testsuite name="Credits\orderCreditsWithInvoice.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="37.748" errors="0">
+<testcase name="Order credits with Invoice" classname="Credits\orderCreditsWithInvoice.spec.js" time="37.748">
+</testcase>
+</testsuite>
+<testsuite name="Credits\orderCreditsWithPromocode.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="40.17" errors="0">
+<testcase name="Export credits - Admin Backoffice" classname="Credits\orderCreditsWithPromocode.spec.js" time="40.17">
+</testcase>
+</testsuite>
+<testsuite name="Credits\RefundCredits.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="36.048" errors="0">
+<testcase name="Export credits - Admin Backoffice" classname="Credits\RefundCredits.spec.js" time="36.048">
+</testcase>
+</testsuite>
+<testsuite name="Credits\UpdateCredits.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="38.482" errors="0">
+<testcase name="Export credits - Admin Backoffice" classname="Credits\UpdateCredits.spec.js" time="38.482">
+</testcase>
+</testsuite>
+<testsuite name="Customers\ActivateCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="43.597" errors="0">
+<testcase name="Activate customer" classname="Customers\ActivateCustomer.spec.js" time="43.597">
+</testcase>
+</testsuite>
+<testsuite name="Customers\AddCard.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="41.462" errors="0">
+<testcase name="Add Card" classname="Customers\AddCard.spec.js" time="41.462">
+</testcase>
+</testsuite>
+<testsuite name="Customers\AddCCEmail.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="40.594" errors="0">
+<testcase name="Add CCEmail" classname="Customers\AddCCEmail.spec.js" time="40.594">
+</testcase>
+</testsuite>
+<testsuite name="Customers\CustomerOrderHistory.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="43.287" errors="0">
+<testcase name="Navigate to Customer Order History Page" classname="Customers\CustomerOrderHistory.spec.js" time="43.287">
+</testcase>
+</testsuite>
+<testsuite name="Customers\DeactivateCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="39.612" errors="0">
+<testcase name="Deactivate customer" classname="Customers\DeactivateCustomer.spec.js" time="39.612">
+</testcase>
+</testsuite>
+<testsuite name="Customers\DeleteCCEmail.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="35.007" errors="0">
+<testcase name="Delete CCEmail" classname="Customers\DeleteCCEmail.spec.js" time="35.007">
+</testcase>
+</testsuite>
+<testsuite name="Customers\DeleteCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="48.132" errors="0">
+<testcase name="Delete customer" classname="Customers\DeleteCustomer.spec.js" time="48.132">
+</testcase>
+</testsuite>
+<testsuite name="Customers\ExportCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="42.144" errors="0">
+<testcase name="Export customer" classname="Customers\ExportCustomer.spec.js" time="42.144">
+<system-out>
+<![CDATA[✅ Exported: downloads/Customers.csv
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Customers\newCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="40.074" errors="0">
+<testcase name="Add new customer" classname="Customers\newCustomer.spec.js" time="40.074">
+</testcase>
+</testsuite>
+<testsuite name="Customers\UpdateCCEmail.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="69.677" errors="0">
+<testcase name="Update CCEmail" classname="Customers\UpdateCCEmail.spec.js" time="69.677">
+</testcase>
+</testsuite>
+<testsuite name="Customers\updateCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="62.609" errors="0">
+<testcase name="update customer" classname="Customers\updateCustomer.spec.js" time="62.609">
+<failure message="updateCustomer.spec.js:4:1 update customer" type="FAILURE">
+<![CDATA[  [chromium] › Customers\updateCustomer.spec.js:4:1 › update customer ──────────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Update' }).first()
+
+
+       at ..\Pages\customerPage.js:112
+
+      110 |     const newPage = await this.openCustomerView();
+      111 |     const newEl = new customer_elements(newPage);
+    > 112 |     await newEl.updateButton.first().click();
+          |                                      ^
+      113 |     await newEl.phoneInput.fill(this.testData.updatePhone);
+      114 |     await this.page.waitForTimeout(2000);
+      115 |     await newEl.submitButton.click();
+        at customerPage.updateCustomer (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\customerPage.js:112:38)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Customers\updateCustomer.spec.js:11:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Customers-updateCustomer-update-customer-chromium\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Customers-updateCustomer-update-customer-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Customers-updateCustomer-update-customer-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Customers-updateCustomer-update-customer-chromium\video-1.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Customers-updateCustomer-update-customer-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Customers-updateCustomer-update-customer-chromium\test-failed-2.png]]
+
+[[ATTACHMENT|test-results\Customers-updateCustomer-update-customer-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Customers-updateCustomer-update-customer-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Customers-updateCustomer-update-customer-chromium\video-1.webm]]
+
+[[ATTACHMENT|test-results\Customers-updateCustomer-update-customer-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Dashboard\ProductionSnapshot.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="31.177" errors="0">
+<testcase name="Navigate to Prduction Snapshot Page" classname="Dashboard\ProductionSnapshot.spec.js" time="31.177">
+</testcase>
+</testsuite>
+<testsuite name="Dashboard\SalesStatistics.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="28.892" errors="0">
+<testcase name="Navigate to Prduction Snapshot Page" classname="Dashboard\SalesStatistics.spec.js" time="28.892">
+</testcase>
+</testsuite>
+<testsuite name="EmailTemplate\navigateToEmailTemplate.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="31.978" errors="0">
+<testcase name="Navigate to Prduction Snapshot Page" classname="EmailTemplate\navigateToEmailTemplate.spec.js" time="31.978">
+</testcase>
+</testsuite>
+<testsuite name="Employees\ActivateEmp.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="40.014" errors="0">
+<testcase name="Activate employee" classname="Employees\ActivateEmp.spec.js" time="40.014">
+</testcase>
+</testsuite>
+<testsuite name="Employees\createEmployee.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="32.203" errors="0">
+<testcase name="Creating an Employee" classname="Employees\createEmployee.spec.js" time="32.203">
+</testcase>
+</testsuite>
+<testsuite name="Employees\DectivateEmp.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="43.35" errors="0">
+<testcase name="Deactivate employee" classname="Employees\DectivateEmp.spec.js" time="43.35">
+</testcase>
+</testsuite>
+<testsuite name="Employees\deleteEmployee.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="43.247" errors="0">
+<testcase name="Delete employee" classname="Employees\deleteEmployee.spec.js" time="43.247">
+</testcase>
+</testsuite>
+<testsuite name="Employees\ExportEmp.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="29.591" errors="0">
+<testcase name="Export Employee" classname="Employees\ExportEmp.spec.js" time="29.591">
+<system-out>
+<![CDATA[✅ Exported and saved: downloads/Employees.csv
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Employees\updateEmployee.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="38.123" errors="0">
+<testcase name="Update employee details" classname="Employees\updateEmployee.spec.js" time="38.123">
+</testcase>
+</testsuite>
+<testsuite name="Login\login.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.416" errors="0">
+<testcase name="Login Test - Admin Backoffice" classname="Login\login.spec.js" time="22.416">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\AssignTechnician.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="39.613" errors="0">
+<testcase name="Assign Technician" classname="Orders\AllOrders\AssignTechnician.spec.js" time="39.613">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\ChangeOrder.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="47.06" errors="0">
+<testcase name="change order" classname="Orders\AllOrders\ChangeOrder.spec.js" time="47.06">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\ChangeOrderStatus.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="47.831" errors="0">
+<testcase name="change Order status" classname="Orders\AllOrders\ChangeOrderStatus.spec.js" time="47.831">
+<failure message="ChangeOrderStatus.spec.js:6:1 change Order status" type="FAILURE">
+<![CDATA[  [chromium] › Orders\AllOrders\ChangeOrderStatus.spec.js:6:1 › change Order status ────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Save' }).nth(1)
+        - locator resolved to <button disabled _bl_75="" type="button" id="hkWyJ281G0" class="rz-button rz-button-md rz-variant-filled rz-secondary rz-shade-default rz-state-disabled">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        19 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\Pages\ordersPage.js:93
+
+      91 |         await expect(this.el.statusDropdown).toBeVisible({ timeout: 5000 });
+      92 |         await this.el.statusDropdown.selectOption(this.testData.changeStatus_status);
+    > 93 |         await this.el.saveButton.nth(1).click();
+         |                                         ^
+      94 |         await this.page.waitForTimeout(2000);
+      95 |     }
+      96 |
+        at ordersPage.changeOrderStatus (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:93:41)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\AllOrders\ChangeOrderStatus.spec.js:13:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-AllOrders-ChangeOrderStatus-change-Order-status-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\DeliverReport.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="37.81" errors="0">
+<testcase name="Deliver Report" classname="Orders\AllOrders\DeliverReport.spec.js" time="37.81">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\DownloadFiles.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="47.685" errors="0">
+<testcase name="Download Files" classname="Orders\AllOrders\DownloadFiles.spec.js" time="47.685">
+<system-out>
+<![CDATA[🎯 All files downloaded successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\ExportOrders.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="30.785" errors="0">
+<testcase name="Export Orders" classname="Orders\AllOrders\ExportOrders.spec.js" time="30.785">
+<system-out>
+<![CDATA[Exported and saved: downloads/Orders.csv
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\OrderFlow.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="68.308" errors="0">
+<testcase name="order flow" classname="Orders\AllOrders\OrderFlow.spec.js" time="68.308">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\RefundOrder.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="47.197" errors="0">
+<testcase name="Refund order" classname="Orders\AllOrders\RefundOrder.spec.js" time="47.197">
+<failure message="RefundOrder.spec.js:5:1 Refund order" type="FAILURE">
+<![CDATA[  [chromium] › Orders\AllOrders\RefundOrder.spec.js:5:1 › Refund order ─────────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Refund' })
+        - locator resolved to <button disabled _bl_67="" type="button" id="uP20rvM-P0" class="rz-button rz-button-md rz-variant-filled rz-secondary rz-shade-default rz-state-disabled">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        19 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\Pages\ordersPage.js:161
+
+      159 |         await this.searchOrder(this.testData.refundId);
+      160 |         await this.view();
+    > 161 |         await this.el.refundBtn.click();
+          |                                 ^
+      162 |         await this.el.yesButton.click();
+      163 |         if (this.testData.refund_amount > 0) {
+      164 |             await this.el.refundAmountInput.fill(this.testData.refund_amount);
+        at ordersPage.refundOrder (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:161:33)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\AllOrders\RefundOrder.spec.js:12:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-AllOrders-RefundOrder-Refund-order-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\ResendReceipt.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="31.285" errors="0">
+<testcase name="Resend Receipt" classname="Orders\AllOrders\ResendReceipt.spec.js" time="31.285">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\UpdateOrder.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="32.708" errors="0">
+<testcase name="Update Order" classname="Orders\AllOrders\UpdateOrder.spec.js" time="32.708">
+</testcase>
+</testsuite>
+<testsuite name="Orders\AllOrders\UploadFiles.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="64.79" errors="0">
+<testcase name="upload files" classname="Orders\AllOrders\UploadFiles.spec.js" time="64.79">
+</testcase>
+</testsuite>
+<testsuite name="Orders\Assigned.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="43.242" errors="0">
+<testcase name="Navigate to Assigned page" classname="Orders\Assigned.spec.js" time="43.242">
+<failure message="Assigned.spec.js:5:1 Navigate to Assigned page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\Assigned.spec.js:5:1 › Navigate to Assigned page ─────────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToAssigned (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:183:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\Assigned.spec.js:11:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-Assigned-Navigate-to-Assigned-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\Delivered.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="54.59" errors="0">
+<testcase name="Navigate to Delivered page" classname="Orders\Delivered.spec.js" time="54.59">
+<failure message="Delivered.spec.js:4:1 Navigate to Delivered page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\Delivered.spec.js:4:1 › Navigate to Delivered page ───────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToDelivered (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:188:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\Delivered.spec.js:10:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-Delivered-Navigate-to-Delivered-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\InProduction.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="50.298" errors="0">
+<testcase name="Navigate to In production page" classname="Orders\InProduction.spec.js" time="50.298">
+<failure message="InProduction.spec.js:5:1 Navigate to In production page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\InProduction.spec.js:5:1 › Navigate to In production page ────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToInprod (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:191:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\InProduction.spec.js:11:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-InProduction-Navigate-to-In-production-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\InQueue.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="77.56" errors="0">
+<testcase name="Navigate to InQueue page" classname="Orders\InQueue.spec.js" time="77.56">
+<failure message="InQueue.spec.js:5:1 Navigate to InQueue page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\InQueue.spec.js:5:1 › Navigate to InQueue page ───────────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToInQue (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:194:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\InQueue.spec.js:11:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-InQueue-Navigate-to-InQueue-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\OrdersReceived.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="79.679" errors="0">
+<testcase name="Navigate to OrderReceived page" classname="Orders\OrdersReceived.spec.js" time="79.679">
+<failure message="OrdersReceived.spec.js:5:1 Navigate to OrderReceived page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\OrdersReceived.spec.js:5:1 › Navigate to OrderReceived page ──────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToReceived (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:197:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\OrdersReceived.spec.js:11:17
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-OrdersReceived-Navigate-to-OrderReceived-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-OrdersReceived-Navigate-to-OrderReceived-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-OrdersReceived-Navigate-to-OrderReceived-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-OrdersReceived-Navigate-to-OrderReceived-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\PendingNeedInfo.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="74.079" errors="0">
+<testcase name="Navigate to Pending-Need-Info page" classname="Orders\PendingNeedInfo.spec.js" time="74.079">
+<failure message="PendingNeedInfo.spec.js:4:1 Navigate to Pending-Need-Info page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\PendingNeedInfo.spec.js:4:1 › Navigate to Pending-Need-Info page ─────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/productionreport"
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToInPending (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:200:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\PendingNeedInfo.spec.js:11:15
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-PendingNeedInfo-Navigate-to-Pending-Need-Info-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-PendingNeedInfo-Navigate-to-Pending-Need-Info-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-PendingNeedInfo-Navigate-to-Pending-Need-Info-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-PendingNeedInfo-Navigate-to-Pending-Need-Info-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\QualityControl.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="60.143" errors="0">
+<testcase name="Navigate to Quality Control page" classname="Orders\QualityControl.spec.js" time="60.143">
+<failure message="QualityControl.spec.js:5:1 Navigate to Quality Control page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\QualityControl.spec.js:5:1 › Navigate to Quality Control page ────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToQualityControl (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:204:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\QualityControl.spec.js:12:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-QualityControl-Navigate-to-Quality-Control-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Orders\Refunded.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="84.333" errors="0">
+<testcase name="Navigate to Refunded page" classname="Orders\Refunded.spec.js" time="84.333">
+<failure message="Refunded.spec.js:5:1 Navigate to Refunded page" type="FAILURE">
+<![CDATA[  [chromium] › Orders\Refunded.spec.js:5:1 › Navigate to Refunded page ─────────────────────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Orders ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+
+
+       at ..\Pages\ordersPage.js:179
+
+      177 |
+      178 |     async navigateToPage(orderStatus) {
+    > 179 |         await this.el.ordersMenu.click();
+          |                                  ^
+      180 |         await this.el.orderStatusLink(orderStatus).click();
+      181 |     }
+      182 |     async navigateToAssigned() {
+        at ordersPage.navigateToPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:179:34)
+        at ordersPage.navigateToInRefunded (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ordersPage.js:208:20)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Orders\Refunded.spec.js:11:17
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Orders-Refunded-Navigate-to-Refunded-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Orders-Refunded-Navigate-to-Refunded-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Orders-Refunded-Navigate-to-Refunded-page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Orders-Refunded-Navigate-to-Refunded-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Products\NavigateToProductsPage.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="96.362" errors="0">
+<testcase name="Navigate to products page" classname="Products\NavigateToProductsPage.spec.js" time="96.362">
+<failure message="NavigateToProductsPage.spec.js:5:1 Navigate to products page" type="FAILURE">
+<![CDATA[  [chromium] › Products\NavigateToProductsPage.spec.js:5:1 › Navigate to products page ─────────────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Settings ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+
+
+       at ..\Pages\ProductsPage.js:11
+
+       9 |   async navigateToProductsPage() {
+      10 |     await expect(this.el.settingsButton).toBeVisible({ timeout: 10000 });
+    > 11 |     await this.el.settingsButton.click();
+         |                                  ^
+      12 |
+      13 |     await expect(this.el.productsLink).toBeVisible({ timeout: 10000 });
+      14 |     await this.el.productsLink.click();
+        at ProductsPage.navigateToProductsPage (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\ProductsPage.js:11:34)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Products\NavigateToProductsPage.spec.js:11:5
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Products-NavigateToProductsPage-Navigate-to-products-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Products-NavigateToProductsPage-Navigate-to-products-page-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeActivation.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="79.574" errors="0">
+<testcase name="Promo code activation" classname="PromoCode\promocodeActivation.spec.js" time="79.574">
+<failure message="promocodeActivation.spec.js:5:1 Promo code activation" type="FAILURE">
+<![CDATA[  [chromium] › PromoCode\promocodeActivation.spec.js:5:1 › Promo code activation ───────────────────
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Settings ' })
+    Expected: visible
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 10000ms
+      - waiting for getByRole('button', { name: 'Settings ' })
+
+
+       at ..\Pages\promocodePage.js:16
+
+      14 |
+      15 |     async navigateToPromoCodes() {
+    > 16 |         await expect(this.el.settingsBtn).toBeVisible({ timeout: 10000 });
+         |                                           ^
+      17 |         await this.el.settingsBtn.click();
+      18 |
+      19 |         await expect(this.el.promoLink).toBeVisible({ timeout: 6000 });
+        at promocodePage.navigateToPromoCodes (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\promocodePage.js:16:43)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\PromoCode\promocodeActivation.spec.js:11:15
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\PromoCode-promocodeActivation-Promo-code-activation-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\PromoCode-promocodeActivation-Promo-code-activation-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\PromoCode-promocodeActivation-Promo-code-activation-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\PromoCode-promocodeActivation-Promo-code-activation-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeDeactivation.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="58.873" errors="0">
+<testcase name="Promo code deactivation" classname="PromoCode\promocodeDeactivation.spec.js" time="58.873">
+<failure message="promocodeDeactivation.spec.js:5:1 Promo code deactivation" type="FAILURE">
+<![CDATA[  [chromium] › PromoCode\promocodeDeactivation.spec.js:5:1 › Promo code deactivation ───────────────
+
+    TimeoutError: page.goto: Timeout 30000ms exceeded.
+    Call log:
+      - navigating to "https://admin-qa.rooftopmeasurements.com/login", waiting until "load"
+
+
+       at ..\Pages\logIn_page.js:15
+
+      13 |         async gotoLogin() {
+      14 |             //await this.page.setViewportSize({ width: 1500, height: 1000 });
+    > 15 |             await this.page.goto(this.testData.URL);
+         |                             ^
+      16 |             await this.loginElements.emailInput.waitFor({ state: 'visible', timeout: 40000 });
+      17 |         }
+      18 |
+        at logIn_page.gotoLogin (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\logIn_page.js:15:29)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\PromoCode\promocodeDeactivation.spec.js:10:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\PromoCode-promocodeDeactivation-Promo-code-deactivation-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeDeletion.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="49.412" errors="0">
+<testcase name="Promo code deletion" classname="PromoCode\promocodeDeletion.spec.js" time="49.412">
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeForAccountCredits.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="44.286" errors="0">
+<testcase name="Promocode creation for Account Credits" classname="PromoCode\promocodeForAccountCredits.spec.js" time="44.286">
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeForOrder.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="41.051" errors="0">
+<testcase name="Promocode creation for Orders" classname="PromoCode\promocodeForOrder.spec.js" time="41.051">
+<failure message="promocodeForOrder.spec.js:5:1 Promocode creation for Orders" type="FAILURE">
+<![CDATA[  [chromium] › PromoCode\promocodeForOrder.spec.js:5:1 › Promocode creation for Orders ─────────────
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Settings ' })
+    Expected: visible
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 10000ms
+      - waiting for getByRole('button', { name: 'Settings ' })
+        - waiting for" https://admin-qa.rooftopmeasurements.com/" navigation to finish...
+        - navigated to "https://admin-qa.rooftopmeasurements.com/"
+
+
+       at ..\Pages\promocodePage.js:16
+
+      14 |
+      15 |     async navigateToPromoCodes() {
+    > 16 |         await expect(this.el.settingsBtn).toBeVisible({ timeout: 10000 });
+         |                                           ^
+      17 |         await this.el.settingsBtn.click();
+      18 |
+      19 |         await expect(this.el.promoLink).toBeVisible({ timeout: 6000 });
+        at promocodePage.navigateToPromoCodes (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\promocodePage.js:16:43)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\PromoCode\promocodeForOrder.spec.js:12:15
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\PromoCode-promocodeForOrder-Promocode-creation-for-Orders-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\promocodeForRushType.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="48.07" errors="0">
+<testcase name="Promocode creation for Rush Delivery Type" classname="PromoCode\promocodeForRushType.spec.js" time="48.07">
+</testcase>
+</testsuite>
+<testsuite name="PromoCode\viewPromocodeHistory.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="31.426" errors="0">
+<testcase name="View Promocode History" classname="PromoCode\viewPromocodeHistory.spec.js" time="31.426">
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderMultipleReports.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="45.711" errors="0">
+<testcase name="Order a Multiple reports" classname="Reports\orderMultipleReports.spec.js" time="45.711">
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderReportExistingCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="38.4" errors="0">
+<testcase name="Order a report with Existing customer" classname="Reports\orderReportExistingCustomer.spec.js" time="38.4">
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderReportNewCustomer.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="1" skipped="0" time="37.756" errors="0">
+<testcase name="Order a report with New customer" classname="Reports\orderReportNewCustomer.spec.js" time="37.756">
+<failure message="orderReportNewCustomer.spec.js:6:1 Order a report with New customer" type="FAILURE">
+<![CDATA[  [chromium] › Reports\orderReportNewCustomer.spec.js:6:1 › Order a report with New customer ───────
+
+    TimeoutError: locator.click: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('//li[@aria-label=\'Arkansas\']')
+        - locator resolved to <li role="option" aria-label="Arkansas" class="rz-dropdown-item ">…</li>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        19 × waiting for element to be visible, enabled and stable
+           - element is not visible
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\Pages\orderReportPage.js:64
+
+      62 |         await this.el.stateDropdown.click();
+      63 |         await this.el.stateDropdown.click();
+    > 64 |         await this.el.stateOptionArkansas.click();
+         |                                           ^
+      65 |         await this.el.dropdownTrigger.click();
+      66 |         await this.el.zipInput.fill(this.testData.newCustomer_zip);
+      67 |         await expect(this.el.nextButton).toBeVisible();
+        at orderReportPage.orderforNewCustomer (C:\PlaywrightProjects\RooftopBackoffice_Automation\Pages\orderReportPage.js:64:43)
+        at C:\PlaywrightProjects\RooftopBackoffice_Automation\tests\Reports\orderReportNewCustomer.spec.js:14:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Reports-orderReportNewCust-36b61--a-report-with-New-customer-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderReportWithInvoice.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="37.833" errors="0">
+<testcase name="Order a report with Invoice" classname="Reports\orderReportWithInvoice.spec.js" time="37.833">
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderReportWithPackageCredits.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="39.315" errors="0">
+<testcase name="Order a report with package Credits" classname="Reports\orderReportWithPackageCredits.spec.js" time="39.315">
+</testcase>
+</testsuite>
+<testsuite name="Reports\orderReportWithPromocode.spec.js" timestamp="2025-11-11T07:48:22.382Z" hostname="chromium" tests="1" failures="0" skipped="0" time="43.861" errors="0">
+<testcase name="Order a report with Promocode" classname="Reports\orderReportWithPromocode.spec.js" time="43.861">
+</testcase>
+</testsuite>
+</testsuites>

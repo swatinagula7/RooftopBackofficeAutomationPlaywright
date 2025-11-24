@@ -1,0 +1,3 @@
+✅ Downloaded: C:\PlaywrightProjects\RooftopBackoffice_Automation\fixtures\downloads\order1.RCG
+✅ Downloaded: C:\PlaywrightProjects\RooftopBackoffice_Automation\fixtures\downloads\order2.ESX
+🎯 All files downloaded successfully.

@@ -1,0 +1,58 @@
+EmployeeId,UserName,Name,Email,Phone,Role,Status,RegisteredOn
+1,rep****@gmail.com,Admin Supper,reports.rooftopmeasurements@gmail.com,,Admin,Active,12/31/1969 17:00:00
+4,jar****@hotmail.com,Jared Dodson,jaredleedodson@hotmail.com,425-299-2189,Manager,Active,07/03/2013 18:45:50
+6,jos****@gmail.com,Josh Dodson,joshdodson2013@gmail.com,4252192546,Technician,InActive,07/08/2013 18:33:09
+8,Cod****@yahoo.com,Joshua Dodson,Code3daddy777@yahoo.com,805-746-5823,Admin,InActive,10/27/2013 14:52:59
+12,j.s****@yahoo.com,Jonathan Sullivan,j.sulli79@yahoo.com,,Technician,InActive,07/23/2014 09:32:11
+13,eri****@gmail.com,Eric Lopez,eric.lopez.rtm@gmail.com,,Technician,InActive,01/25/2016 12:19:00
+14,lil****@gmail.com,Lilia Smith,lilia.rooftop@gmail.com,,Technician,InActive,03/30/2016 09:24:41
+15,dan****@gmail.com,Dan Tholmer,danieltholmer1985@gmail.com,,Technician,Active,04/15/2016 15:17:25
+16,poo****@outlook.com,Canvass Test,pooja.rajput36@outlook.com,,Technician,InActive,04/26/2017 00:21:20
+17,Bla****@rooftopmeasurements.com,Blaine Bradshaw,Blaine@rooftopmeasurements.com,,Technician,Active,04/30/2018 23:37:18
+18,cra****@gmail.com,Daniel Guichard,crashbandicuwut@gmail.com,,Technician,Active,01/27/2020 08:59:44
+19,mar****@gmail.com,Mary Henry,marysroofs@gmail.com,,Manager,InActive,07/21/2020 15:31:04
+20,jef****@yahoo.com,Jeffrey Connely,jeffreylconnelly@yahoo.com,,Technician,InActive,07/23/2020 09:06:30
+21,zbi****@baadalsoft.com,Zubair Binmahfooz,zbinmahfooz@baadalsoft.com,,Technician,InActive,10/06/2020 12:18:22
+22,ish****@baadalsoft.com,Shaik Ibrahimali,ishaik@baadalsoft.com,,Technician,InActive,10/06/2020 12:21:14
+23,omk****@gmail.com,Jatin Thapar,omkar3524@gmail.com,,Technician,InActive,10/20/2020 07:28:25
+24,jos****@gmail.com,Joe Henry,josephrmwork@gmail.com,,Technician,InActive,11/09/2020 10:30:06
+25,asy****@baadalsoft.com,Afridi Syed,asyed@baadalsoft.com,,Technician,InActive,01/11/2021 10:21:14
+26,sam****@gmail.com,Sam Seeley,samuel.r.seeley@gmail.com,,Technician,InActive,01/25/2021 09:56:20
+27,jor****@gmail.com,Jordan Smith,jordan.rooftop@gmail.com,509-942-8575,Technician,InActive,05/03/2021 08:03:35
+28,roo****@gmail.com,Siva - do not assign,rooftopmeasurements@gmail.com,,Admin,Active,09/28/2022 18:05:00
+29,mer****@hotmail.com,Hold ing,merry_mos@hotmail.com,,Technician,Active,03/21/2023 08:55:56
+30,rtm****@gmail.com,Paolo Pittini,rtmproduction01@gmail.com,,Technician,Active,06/03/2023 08:49:11
+31,imo****@baadalsoft.com,Imran - do not assign,imohd@baadalsoft.com,,Technician,InActive,09/27/2023 07:28:36
+32,imo****@baadalsoft.com,Ismail - do not assign,imohd2@baadalsoft.com,,Manager,InActive,11/03/2023 07:05:50
+33,luc****@gmail.com,Lucas Charron,lucaslein4@gmail.com,,Technician,InActive,02/27/2024 10:59:40
+34,ctm****@gmail.com,Charlie Mohi,ctmohi3@gmail.com,,Technician,InActive,03/11/2024 10:02:44
+35,dav****@yahoo.com,David Guichard,davidguichard2001@yahoo.com,,Technician,Active,04/10/2024 10:03:13
+47,picrouprehofo@yopmail.com,johny,picrouprehofo@yopmail.com,576768787,Technician,Active,07/21/2025 10:29:34
+48,admin@yopmail.com,Admin1,admin@yopmail.com,8767586757,Technician,Active,07/21/2025 10:36:24
+52,adm****@email.com,Admin,adm****@email.com,,Admin,Active,
+56,cetrupussejoi-1606@yopmail.com,dev sunny,cetrupussejoi-1606@yopmail.com,,Technician,InActive,07/23/2025 10:27:26
+58,fizeuvauruquoi-1198@yopmail.com,dev akhila,fizeuvauruquoi-1198@yopmail.com,,Technician,InActive,07/24/2025 09:25:17
+60,rottegiliseu-7915@yopmail.com,ted,rottegiliseu-7915@yopmail.com,9678767867,Technician,Active,07/30/2025 06:09:23
+62,cafraupehadda-6388@yopmail.com,manager,cafraupehadda-6388@yopmail.com,767564578765432,Technician,Active,07/30/2025 09:37:35
+63,noitrummeppadda-5860@yopmail.com,Dev Chin,noitrummeppadda-5860@yopmail.com,4765455677,Technician,Active,07/30/2025 10:33:57
+65,huttasaddaze-7195@yopmail.com,dev sunny,huttasaddaze-7195@yopmail.com,7037798773,Manager,Active,07/30/2025 12:20:53
+67,admin@email.com,Admin,admin@email.com,5643425675,Admin,Active,08/01/2025 06:03:04
+68,quafofricippi-4914@yopmail.com,Mark,quafofricippi-4914@yopmail.com,2465788,Technician,Active,08/04/2025 09:43:30
+70,akhilatest@email.com,Dev Guru,akhilatest@email.com,7896543898,Manager,Active,08/06/2025 12:20:38
+71,testing@email.com,Mohd Imran,testing@email.com,0966614622,Technician,Active,08/07/2025 10:29:07
+72,manager@yopmail.com,SwatiManager,manager@yopmail.com,565756735443,Manager,InActive,08/07/2025 10:46:13
+74,xikeunneippoiwau-1665@yopmail.com,manager,xikeunneippoiwau-1665@yopmail.com,67435675367,Manager,Active,08/07/2025 10:58:08
+75,prutticrapemma-5443@yopmail.com,manager1,prutticrapemma-5443@yopmail.com,67435675367,Manager,Active,08/07/2025 10:59:54
+76,akhilatest11@email.com,Akhila Devolla,akhilatest11@email.com,7896543898,Admin,Active,08/07/2025 11:02:31
+77,cribroirupixeu-1378@yopmail.com,manage,cribroirupixeu-1378@yopmail.com,9785896796,Manager,Active,08/07/2025 11:03:50
+78,prinnaucreigeze-1299@yopmail.com,manager3,prinnaucreigeze-1299@yopmail.com,8989797979,Manager,Active,08/07/2025 11:05:52
+81,freibreilauddabre-1759@yopmail.com,technician,freibreilauddabre-1759@yopmail.com,5076547210,Manager,Active,08/08/2025 09:56:19
+83,Dev@yopmail.com,Sunny D,Dev@yopmail.com,8907678965,Manager,Active,08/08/2025 11:30:27
+84,aun@yopmail.com,test,aun@yopmail.com,3456785678,Technician,Active,08/13/2025 09:44:09
+87,kivani445@yopmail.com,KiVani,kivani445@yopmail.com,,Admin,Active,08/29/2025 10:48:42
+101,meugrouleseusi-4871@yopmail.com,d sun,meugrouleseusi-4871@yopmail.com,,Admin,InActive,09/05/2025 07:17:18
+107,yy@yopmail.com,Mark England,yy@yopmail.com,9876565467,Technician,InActive,09/10/2025 10:17:59
+131,tecd@yopmail.com,tech,tecd@yopmail.com,5677898789,Technician,Active,09/24/2025 07:00:49
+133,ani@yopmail.com,ani,ani@yopmail.com,7563746583,Technician,Active,09/26/2025 10:24:23
+136,rockyy@yopmail.com,rockyy,rockyy@yopmail.com,9876857687,Technician,Active,09/30/2025 09:24:49
+141,woihagiqueifro-2577@yopmail.com,Akhila,woihagiqueifro-2577@yopmail.com,9865456788,Admin,Active,10/09/2025 05:38:09
