@@ -99,7 +99,7 @@ exports.orderReportPage = class orderReportPage {
         for (const report of this.testData.orderMultipleReport.reports) {
             await this.enterLocation(report.location, report.city);
              await this.addItem();
-            await this.page.waitForTimeout(2000);
+            await this.page.waitForTimeout(4000);
         }
     }
 
